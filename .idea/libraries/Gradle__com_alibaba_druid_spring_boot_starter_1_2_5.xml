@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:druid-spring-boot-starter:1.2.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid-spring-boot-starter/1.2.5/a1aaf4377e28a4f7bf11beb0af9cbb0a7c02b7f8/druid-spring-boot-starter-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid-spring-boot-starter/1.2.5/c6974a828b0513c5bd6047fc4b6db1759fb25369/druid-spring-boot-starter-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

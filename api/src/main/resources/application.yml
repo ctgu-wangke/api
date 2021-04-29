@@ -1,0 +1,45 @@
+spring:
+    profiles:
+        active: dev
+    http:
+        encoding:
+            force: true
+            charset: UTF-8
+            enabled: true
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        druid:
+            max-wait: 60000
+        url: jdbc:mysql://localhost:3306/bootdemo?serverTimezone=UTC
+        username: root
+        password: wangke123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+    output:
+        ansi:
+            enabled: always
+    jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss.SSS
+server:
+    port: 8080
+    tomcat:
+        uri-encoding: UTF-8
+mybatis:
+    mapper-locations:
+      - classpath:/mybatis/mapper/*.xml
+
+
+logging:
+    level:
+        root: INFO
+
+jwt:
+    secret: api_key
+    expiration: 180
+
+#文件路径
+file:
+    basepath: 'C:\\Users\\wangke\\Desktop'
+
+
